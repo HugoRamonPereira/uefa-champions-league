@@ -55,6 +55,7 @@ const config = {
         uefa: {
           "dark-blue-main": "#000040",
           "dark-blue-secondary": "#0A0A61",
+          "dark-blue-tertiary": "#242473",
           blue: "#0D39FF",
           cyan: "#59F7DD",
           gray: "#F2F4F7"
