@@ -63,22 +63,22 @@ export default function Footer() {
             <p>Follow us on</p>
             <div className="flex gap-4">
               <Button variant="uefa-link-round">
-                <Link href="https://twitter.com/" target="_blank">
+                <Link href="https://twitter.com/ChampionsLeague" target="_blank">
                   <TwitterX className="fill-gray-300 hover:fill-white" />
                 </Link>
               </Button>
               <Button variant="uefa-link-round">
-                <Link href="https://www.facebook.com/" target="_blank">
+                <Link href="https://www.facebook.com/ChampionsLeague/" target="_blank">
                   <Facebook className="fill-gray-300 hover:fill-white" />
                 </Link>
               </Button>
               <Button variant="uefa-link-round">
-                <Link href="https://www.youtube.com/" target="_blank">
+                <Link href="https://www.youtube.com/@UEFA" target="_blank">
                   <Youtube className="fill-gray-300 hover:fill-white" />
                 </Link>
               </Button>
               <Button variant="uefa-link-round">
-                <Link href="https://www.instagram.com/" target="_blank">
+                <Link href="https://www.instagram.com/championsleague/" target="_blank">
                   <Instagram className="fill-gray-300 hover:fill-white" />
                 </Link>
               </Button>
