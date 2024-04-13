@@ -20,7 +20,9 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         "uefa-outline": "flex gap-3 p-2 !px-5 font-light rounded-3xl border-2 border-white bg-transparent hover:transition-colors hover:duration-200 tracking-wide font-normal text-base hover:border-gray-400 hover:text-gray-400",
         "uefa-link": "text-base font-light text-white hover:text-uefa-cyan hover:transition-colors hover:duration-200 p-1",
-        "uefa-cyan-outline": "text-base font-medium text-uefa-cyan hover:text-uefa-dark-blue-main border-2 border-uefa-cyan hover:bg-uefa-cyan"
+        "uefa-link-footer": "text-sm font-light text-gray-300 hover:text-white hover:transition-colors hover:duration-200 cursor-pointer text-left py-0 max-w-fit !px-0 max-h-6",
+        "uefa-cyan-outline": "text-base font-medium text-uefa-cyan hover:text-uefa-dark-blue-main border-2 border-uefa-cyan hover:bg-uefa-cyan",
+        "uefa-link-round": "text-sm text-gray-300 hover:text-white hover:transition-colors hover:duration-200 cursor-pointer rounded-full border-[1.5px] w-10 h-10 border-gray-300 hover:border-white"
       },
       size: {
         default: "h-10 px-4 py-2",
