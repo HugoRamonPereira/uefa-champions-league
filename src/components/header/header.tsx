@@ -10,8 +10,7 @@ import {
   NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
+  NavigationMenuTrigger
 } from "@/components/ui/navigation-menu";
 import { forwardRef } from "react";
 
