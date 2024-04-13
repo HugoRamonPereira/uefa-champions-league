@@ -38,9 +38,21 @@ export default function Footer() {
           <div className="border-l border-gray-200/15 pl-4 min-h-56">
             <p className="uppercase text-base font-semibold mb-4">Also Visit</p>
             <ul className="flex flex-col gap-0.5">
-              <Button variant="uefa-link-footer">UEFA.com</Button>
-              <Button variant="uefa-link-footer">Inside UEFA</Button>
-              <Button variant="uefa-link-footer">UEFA Foundation</Button>
+              <Button variant="uefa-link-footer">
+                <Link href="https://www.uefa.com/" target="_blank">
+                  UEFA.com
+                </Link>
+              </Button>
+              <Button variant="uefa-link-footer">
+                <Link href="https://www.uefa.com/insideuefa/" target="_blank">
+                  Inside UEFA
+                </Link>
+              </Button>
+              <Button variant="uefa-link-footer">
+                <Link href="https://uefafoundation.org/" target="_blank">
+                  UEFA Foundation
+                </Link>
+              </Button>
             </ul>
           </div>
           <div className="border-l border-gray-200/15 pl-4 min-h-48">

@@ -1,0 +1,24 @@
+<svg width="330" height="554" viewBox="0 0 330 554" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="0.273926" width="329.96" height="554" fill="#00004B"/>
+<rect y="0.273926" width="329.96" height="61.5924" fill="#00004B"/>
+<rect y="61.8662" width="329.96" height="61.5924" fill="#00004B"/>
+<rect y="123.459" width="329.96" height="61.5924" fill="#00004B"/>
+<rect y="185.051" width="329.96" height="61.5924" fill="#00004B"/>
+<rect y="246.644" width="329.96" height="30.7962" fill="#00004B"/>
+<rect x="55.8731" y="0.713872" width="218.213" height="69.5115" stroke="#0D3AFF" stroke-width="0.879892"/>
+<rect x="124.505" y="0.713872" width="81.83" height="33.4359" stroke="#0D3AFF" stroke-width="0.879892"/>
+<path d="M138.581 70.2256C144.6 78.24 154.185 83.424 164.98 83.424C175.775 83.424 185.359 78.24 191.379 70.2256" stroke="#0D3AFF" stroke-width="0.879892"/>
+<rect width="329.96" height="61.5924" transform="matrix(1 0 0 -1 0 553.726)" fill="#00004B"/>
+<rect width="329.96" height="61.5924" transform="matrix(1 0 0 -1 0 492.134)" fill="#00004B"/>
+<rect width="329.96" height="61.5924" transform="matrix(1 0 0 -1 0 430.541)" fill="#00004B"/>
+<rect width="329.96" height="61.5924" transform="matrix(1 0 0 -1 0 368.949)" fill="#00004B"/>
+<rect width="329.96" height="30.7962" transform="matrix(1 0 0 -1 0 307.356)" fill="#00004B"/>
+<line y1="-0.439946" x2="329.96" y2="-0.439946" transform="matrix(1 0 0 -1 0 276.56)" stroke="#0D3AFF" stroke-width="0.879892"/>
+<rect x="0.439946" y="-0.439946" width="81.83" height="33.4359" transform="matrix(1 0 0 -1 124.065 552.846)" stroke="#0D3AFF" stroke-width="0.879892"/>
+<path d="M138.581 483.774C144.6 475.76 154.185 470.576 164.98 470.576C175.775 470.576 185.359 475.76 191.379 483.774" stroke="#0D3AFF" stroke-width="0.879892"/>
+<circle cx="165.42" cy="276.56" r="56.753" stroke="#0D3AFF" stroke-width="0.879892"/>
+<circle cx="165.42" cy="277" r="2.63968" fill="#0D3AFF"/>
+<line y1="0" x1="0" x2="329.96" y2="0" stroke="#0D3AFF" stroke-width="2.5"/>
+<line y1="554" x2="329.96" y2="554" stroke="#0D3AFF" stroke-width="2.5"/>
+<rect x="0.439946" y="-0.439946" width="218.213" height="69.5115" transform="matrix(1 0 0 -1 55.4331 552.846)" stroke="#0D3AFF" stroke-width="0.879892"/>
+</svg>
