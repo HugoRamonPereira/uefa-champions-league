@@ -18,7 +18,7 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        "uefa-outline": "flex gap-2 font-light rounded-3xl border-2 border-white bg-transparent hover:transition-colors hover:duration-200 tracking-wide font-normal text-base hover:border-gray-400 hover:text-gray-400",
+        "uefa-outline": "flex gap-3 p-2 !px-5 font-light rounded-3xl border-2 border-white bg-transparent hover:transition-colors hover:duration-200 tracking-wide font-normal text-base hover:border-gray-400 hover:text-gray-400",
         "uefa-link": "text-base font-light text-white hover:text-uefa-cyan hover:transition-colors hover:duration-200 p-1",
         "uefa-cyan-outline": "text-base font-medium text-uefa-cyan hover:text-uefa-dark-blue-main border-2 border-uefa-cyan hover:bg-uefa-cyan"
       },

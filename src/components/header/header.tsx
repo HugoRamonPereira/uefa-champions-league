@@ -11,6 +11,7 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuTrigger,
+  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import { forwardRef } from "react";
 
@@ -148,7 +149,7 @@ export default function Header() {
         <a
           ref={ref}
           className={cn(
-            "block select-none space-y-1 rounded-sm p-4 leading-none no-underline outline-none transition-colors hover:bg-uefa-dark-blue-main text-white",
+            "block select-none p-4 leading-none no-underline outline-none transition-colors hover:bg-uefa-dark-blue-main text-white rounded-none",
             className
           )}
           {...props}
@@ -169,11 +170,11 @@ ListItem.displayName = "ListItem"
       <div className="w-full max-w-[1400px] mx-auto flex items-center justify-between">
         <section className="flex">
           <Link href="/">
-            <Image src="/assets/images/ucl-logo-dark.svg" alt="UEFA logo" width={100} height={70} />
+            <Image src="/assets/images/ucl-logo-dark.svg" alt="UEFA logo" width={85} height={70} />
           </Link>
         </section>
         <section className="flex">
-          <ul className="flex items-center gap-8 font-extralight text-white tracking-wide">
+          <ul className="flex items-center gap-7 font-extralight text-white tracking-wide">
             <Button variant="uefa-link">Matches</Button>
             <Button variant="uefa-link" >Groups</Button>
             <NavigationMenu className="flex gap-8">
@@ -184,7 +185,12 @@ ListItem.displayName = "ListItem"
                     Video
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-2 p-0 md:w-[500px] md:grid-cols-1 lg:w-[300px]">
+                    <div
+                      className="w-0 h-0 absolute left-8 -top-4 border-l-[12px] border-l-transparent border-b-[16px]
+                       border-b-uefa-dark-blue-secondary border-r-[12px] border-r-transparent data-[state=open]:animate-in
+                       data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90"
+                      />
+                    <ul className="grid w-[400px] p-0 md:w-[500px] md:grid-cols-1 lg:w-[300px] divide-y-[0.5px] divide-uefa-dark-blue-tertiary">
                       {videoComponents.map((component) => (
                         <ListItem
                           key={component.title}
@@ -205,7 +211,12 @@ ListItem.displayName = "ListItem"
                     Gaming
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-2 p-0 md:w-[500px] md:grid-cols-1 lg:w-[300px]">
+                    <div
+                      className="w-0 h-0 absolute left-8 -top-4 border-l-[12px] border-l-transparent border-b-[16px]
+                       border-b-uefa-dark-blue-secondary border-r-[12px] border-r-transparent data-[state=open]:animate-in
+                       data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90"
+                      />
+                    <ul className="grid w-[400px] p-0 md:w-[500px] md:grid-cols-1 lg:w-[300px] divide-y-[0.5px] divide-uefa-dark-blue-tertiary">
                       {gamingComponents.map((component) => (
                         <ListItem
                           key={component.title}
@@ -226,7 +237,12 @@ ListItem.displayName = "ListItem"
                     Stats
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-2 p-0 md:w-[500px] md:grid-cols-1 lg:w-[300px]">
+                    <div
+                      className="w-0 h-0 absolute left-8 -top-4 border-l-[12px] border-l-transparent border-b-[16px]
+                       border-b-uefa-dark-blue-secondary border-r-[12px] border-r-transparent data-[state=open]:animate-in
+                       data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90"
+                      />
+                    <ul className="grid w-[400px] p-0 md:w-[500px] md:grid-cols-1 lg:w-[300px] divide-y-[0.5px] divide-uefa-dark-blue-tertiary">
                       {statsComponents.map((component) => (
                         <ListItem
                           key={component.title}
@@ -251,7 +267,12 @@ ListItem.displayName = "ListItem"
                     History
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-2 p-0 md:w-[500px] md:grid-cols-1 lg:w-[300px]">
+                    <div
+                      className="w-0 h-0 absolute left-8 -top-4 border-l-[12px] border-l-transparent border-b-[16px]
+                       border-b-uefa-dark-blue-secondary border-r-[12px] border-r-transparent data-[state=open]:animate-in
+                        data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90"
+                      />
+                    <ul className="grid w-[400px] p-0 md:w-[500px] md:grid-cols-1 lg:w-[300px] divide-y-[0.5px] divide-uefa-dark-blue-tertiary">
                       {historyComponents.map((component) => (
                         <ListItem
                           key={component.title}
@@ -275,23 +296,28 @@ ListItem.displayName = "ListItem"
                   More
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-2 p-0 md:w-[500px] md:grid-cols-1 lg:w-[300px]">
-                      {moreComponents.map((component) => (
-                        <ListItem
-                          key={component.title}
-                          title={component.title}
-                          href={component.href}
-                        >
-                        </ListItem>
-                      ))}
-                    </ul>
-                  </NavigationMenuContent>
+                  <div
+                  className="w-0 h-0 absolute left-8 -top-4 border-l-[12px] border-l-transparent border-b-[16px]
+                    border-b-uefa-dark-blue-secondary border-r-[12px] border-r-transparent data-[state=open]:animate-in
+                    data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90"
+                  />
+                  <ul className="grid w-[400px] p-0 md:w-[500px] md:grid-cols-1 lg:w-[300px] divide-y-[0.5px] divide-uefa-dark-blue-tertiary">
+                    {moreComponents.map((component) => (
+                      <ListItem
+                        key={component.title}
+                        title={component.title}
+                        href={component.href}
+                      >
+                      </ListItem>
+                    ))}
+                  </ul>
+                </NavigationMenuContent>
               </NavigationMenuItem>
             </NavigationMenuLink>
           </NavigationMenu>
           <Button variant="uefa-outline">
             Favorite team
-            <CirclePlus />
+            <CirclePlus size={18} />
           </Button>
         </section>
       </div>
