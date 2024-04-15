@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import { CirclePlus } from "lucide-react"
+import { CirclePlus, Menu } from "lucide-react"
 import Link from "next/link";
 import { Button } from "../ui/button";
 import { cn } from "@/lib/utils";
@@ -166,18 +166,28 @@ ListItem.displayName = "ListItem"
 
   return (
     <header className="w-full h-20 bg-uefa-dark-blue-main flex items-center justify-between">
-      <div className="w-full max-w-[1400px] mx-auto flex items-center justify-between">
+      <div className="w-full max-w-[1400px] mx-auto flex items-center justify-between px-4 sm:px-0">
         <section className="flex">
           <Link href="/">
-            <Image src="/assets/images/ucl-logo-dark.svg" alt="UEFA logo" width={85} height={70} />
+            <Image
+              src="/assets/images/ucl-logo-dark.svg"
+              alt="UEFA logo"
+              width={85}
+              height={70}
+              className="w-16"
+            />
           </Link>
         </section>
         <section className="flex">
-          <ul className="flex items-center gap-7 font-extralight text-white tracking-wide">
-            <Button variant="uefa-link">Matches</Button>
-            <Button variant="uefa-link" >Groups</Button>
-            <NavigationMenu className="flex gap-8">
+          <ul className="flex items-center gap-0 md:gap-7 font-extralight text-white tracking-wide">
+            <Button variant="uefa-link" className="text-sm sm:text-base">Matches</Button>
+            <Button variant="uefa-link" className="text-sm sm:text-base">Groups</Button>
+            <Button variant="uefa-link" className="text-sm sm:hidden flex items-center gap-1 pr-0">
+              More
+              <Menu />
+            </Button>
 
+            <NavigationMenu className="hidden md:flex gap-8">
               <NavigationMenuLink>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>
@@ -203,7 +213,7 @@ ListItem.displayName = "ListItem"
                 </NavigationMenuItem>
               </NavigationMenuLink>
             </NavigationMenu>
-            <NavigationMenu className="flex gap-8">
+            <NavigationMenu className="hidden md:flex gap-8">
               <NavigationMenuLink>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>
@@ -229,7 +239,7 @@ ListItem.displayName = "ListItem"
                 </NavigationMenuItem>
               </NavigationMenuLink>
             </NavigationMenu>
-            <NavigationMenu className="flex gap-8">
+            <NavigationMenu className="hidden md:flex gap-8">
               <NavigationMenuLink>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>
@@ -255,12 +265,12 @@ ListItem.displayName = "ListItem"
                 </NavigationMenuItem>
               </NavigationMenuLink>
             </NavigationMenu>
-            <Button variant="uefa-link" >Teams</Button>
-            <Button variant="uefa-link" >News</Button>
-            <Button variant="uefa-link" >Final</Button>
+            <Button className="hidden md:flex" variant="uefa-link" >Teams</Button>
+            <Button className="hidden md:flex" variant="uefa-link" >News</Button>
+            <Button className="hidden md:flex" variant="uefa-link" >Final</Button>
 
-            <NavigationMenu>
-            <NavigationMenuLink>
+            <NavigationMenu className="hidden md:flex">
+              <NavigationMenuLink>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>
                     History
@@ -287,7 +297,7 @@ ListItem.displayName = "ListItem"
             </NavigationMenu>
           </ul>
         </section>
-        <section className="flex items-center gap-4 font-extralight text-white list-none">
+        <section className="hidden sm:flex items-center gap-4 text-sm sm:text-base font-extralight text-white list-none">
           <NavigationMenu>
             <NavigationMenuLink>
               <NavigationMenuItem>
@@ -314,7 +324,7 @@ ListItem.displayName = "ListItem"
               </NavigationMenuItem>
             </NavigationMenuLink>
           </NavigationMenu>
-          <Button variant="uefa-outline">
+          <Button className="hidden md:flex" variant="uefa-outline">
             Favorite team
             <CirclePlus size={18} />
           </Button>

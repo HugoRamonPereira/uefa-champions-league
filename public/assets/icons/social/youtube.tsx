@@ -8,7 +8,7 @@ export default function Youtube({ className }: YoutubeProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      enable-background="new 0 0 124 124"
+      enableBackground="new 0 0 124 124"
       viewBox="0 0 124 124"
       width={30}
       height={30}
