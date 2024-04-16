@@ -3,11 +3,11 @@ import type { Config } from "tailwindcss"
 const config = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -58,7 +58,8 @@ const config = {
           "dark-blue-tertiary": "#242473",
           blue: "#0D39FF",
           cyan: "#59F7DD",
-          gray: "#F2F4F7"
+          "dark-cyan": "#031f38",
+          gray: "#F2F4F7",
         },
       },
       borderRadius: {
@@ -83,6 +84,6 @@ const config = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config
+} satisfies Config;
 
 export default config

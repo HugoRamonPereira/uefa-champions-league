@@ -139,9 +139,9 @@ const moreComponents: { title: string; href: string; }[] = [
 
 export default function Header() {
   const ListItem = forwardRef<
-  React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a">
->(({ className, title, children, ...props }, ref) => {
+    React.ElementRef<"a">,
+    React.ComponentPropsWithoutRef<"a">
+  >(({ className, title, children, ...props }, ref) => {
   return (
     <li>
       <NavigationMenuLink asChild>
@@ -174,7 +174,7 @@ ListItem.displayName = "ListItem"
               alt="UEFA logo"
               width={85}
               height={70}
-              className="w-16"
+              className="w-16 md:w-20"
             />
           </Link>
         </section>
