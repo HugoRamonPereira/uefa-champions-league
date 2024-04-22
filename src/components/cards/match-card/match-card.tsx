@@ -5,7 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import Play from "../../../public/assets/icons/play"
+import Play from "../../../../public/assets/icons/play"
 import Image, { StaticImageData }  from "next/image"
 import Link from "next/link";
 
@@ -30,7 +30,7 @@ export default function MatchCard({ teamOne, teamTwo, teamOneImage, teamTwoImage
             <Play className="fill-uefa-cyan" />
           </CardTitle>
         </CardHeader>
-        <CardContent className="flex flex-col gap-2">
+        <CardContent className="flex flex-col gap-2 p-3 pt-0">
           <div className="flex items-center justify-between text-gray-100 font-light text-sm tracking-wide">
             <div className="flex gap-1">
               <Image src={teamOneImage} alt={teamOneAlt} width={20} height={15} quality={100}/>

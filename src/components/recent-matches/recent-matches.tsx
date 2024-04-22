@@ -1,7 +1,7 @@
 'use client'
 
 import FootballField from "../../../public/assets/icons/football-field";
-import MatchCard from "../match-card/match-card";
+import MatchCard from "../cards/match-card/match-card";
 import { Button } from "../ui/button";
 
 import { Swiper, SwiperSlide } from "swiper/react";
