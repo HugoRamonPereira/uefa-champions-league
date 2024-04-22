@@ -59,7 +59,9 @@ const config = {
           blue: "#0D39FF",
           cyan: "#59F7DD",
           "dark-cyan": "#031f38",
+          "cyan-gray": "#1C354D",
           gray: "#F2F4F7",
+          "light-gray": "#B2BAC2"
         },
       },
       borderRadius: {

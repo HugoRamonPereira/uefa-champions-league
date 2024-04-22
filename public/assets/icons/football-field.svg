@@ -1,0 +1,14 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="0 0 24 24"
+  class="pk-svg__icon pk-svg__icon--product"
+  part="svg"
+>
+  <path
+    fill="#B3BBC4"
+    fill-rule="evenodd"
+    d="M5 2h14a1 1 0 011 1v18a1 1 0 01-1 1H5a1 1 0 01-1-1V3a1 1 0 011-1zm11 2h2v7h-3.169a3.001 3.001 0 00-5.662 0H6V4h2v2.5a1 1 0 001 1h6a1 1 0 001-1V4zm-6.828 9H6v7h2v-2.5a1 1 0 011-1h6a1 1 0 011 1V20h2v-7h-3.172a3.001 3.001 0 01-5.656 0zM14 18.5V20h-4v-1.5h4zM10 4v1.5h4V4h-4zm2 8.995a1 1 0 110-2 1 1 0 010 2z" clip-rule="evenodd"
+  >
+  </path>
+</svg>
