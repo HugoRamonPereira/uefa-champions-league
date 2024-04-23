@@ -17,7 +17,7 @@ export default function RegularCard({ destination, text, cardIcon, cardIconDescr
   return (
     <Link href={destination}>
       <Card
-        className="w-[180px] h-[120px] flex items-center justify-center bg-transparent group text-gray-300 border-[0.5px] border-gray-400 hover:border-gray-100 rounded-2xl p-3 "
+        className="w-[180px] h-[120px] flex items-center justify-center bg-transparent group text-gray-300 border-[0.5px] border-gray-400 hover:border-gray-100 rounded-2xl p-3 transition-colors duration-300"
       >
         <CardContent className="flex items-center justify-center">
           {!text ? (

@@ -57,13 +57,13 @@ export default function TopHeader() {
             <DropdownMenuContent className="bg-uefa-dark-cyan">
               <div>
                 <section className="w-full mb-6">
-                  <div className="w-full max-w-[1400px] mx-auto py-4 flex items-center justify-between">
+                  <div className="w-full max-w-[1400px] mx-auto py-4 flex items-center justify-between px-4 sm:px-0">
                     <div className="flex items-center gap-2">
                       <Image src="/assets/images/uefa-logo.svg" alt="UEFA logo" width={71} height={71} />
                       <CaretDown className="fill-white mt-[6px] rotate-[225deg]" />
                     </div>
                     <div>
-                      <div className="flex items-center">
+                      <div className="hidden sm:flex items-center">
                         <div className="border-r border-gray-400/55">
                           <Button className="flex gap-2 bg-transparent hover:bg-transparent pr-0 sm:pr-5 h-6 text-sm">
                             Log in
@@ -81,12 +81,18 @@ export default function TopHeader() {
                           </Button>
                         </DropdownMenuItem>
                       </div>
+                      <div className="flex sm:hidden">
+                        <Button className="flex gap-2 bg-transparent hover:bg-transparent pr-0 sm:pr-5 h-6 text-sm">
+                          Log in
+                          <UserCircle className="fill-white w-5 h-5" />
+                        </Button>
+                      </div>
                     </div>
                   </div>
                 </section>
                 <section className="w-full h-[55rem] overflow-y-auto">
-                  <div className="w-full max-w-[1400px] mx-auto flex gap-10">
-                    <div className="w-1/3 h-96 flex flex-col gap-8">
+                  <div className="w-full max-w-[1400px] mx-auto flex flex-col sm:flex-row gap-10">
+                    <div className="w-full sm:w-1/3 h-64 sm:h-96 flex items-center sm:items-stretch flex-col gap-8">
                       <div className="w-11/12 bg-uefa-cyan-gray rounded-lg p-6 flex flex-col gap-8 pb-8 border-2 border-uefa-cyan-gray hover:border-gray-400 transition-colors duration-150">
                         <div>
                           <p className="text-xl text-gray-300/80">UEFA.com</p>
@@ -96,28 +102,28 @@ export default function TopHeader() {
                             <Link
                               href="https://www.uefa.com/"
                               target="_blank"
-                              className="text-gray-200 hover:text-white"
+                              className="text-gray-300 hover:text-white transition-colors duration-300"
                             >
                               Home
                             </Link>
                             <Link
                               href="https://www.uefa.com/nationalassociations/"
                               target="_blank"
-                              className="text-gray-200 hover:text-white"
+                              className="text-gray-300 hover:text-white transition-colors duration-300"
                             >
                               National Associations
                             </Link>
                             <Link
                               href="https://www.uefa.com/development/"
                               target="_blank"
-                              className="text-gray-200 hover:text-white"
+                              className="text-gray-300 hover:text-white transition-colors duration-300"
                             >
                               Develpment
                             </Link>
                             <Link
                               href="https://www.uefa.com/news-media/"
                               target="_blank"
-                              className="text-gray-200 hover:text-white"
+                              className="text-gray-300 hover:text-white transition-colors duration-300"
                             >
                               News & Media
                             </Link>
@@ -126,28 +132,28 @@ export default function TopHeader() {
                             <Link
                               href="https://www.uefa.com/about/"
                               target="_blank"
-                              className="text-gray-200 hover:text-white"
+                              className="text-gray-300 hover:text-white transition-colors duration-300"
                             >
                               About
                             </Link>
                             <Link
                               href="https://www.uefa.com/running-competitions/"
                               target="_blank"
-                              className="text-gray-200 hover:text-white"
+                              className="text-gray-300 hover:text-white transition-colors duration-300"
                             >
-                              unning Competitions
+                              Running Competitions
                             </Link>
                             <Link
                               href="https://www.uefa.com/sustainability/"
                               target="_blank"
-                              className="text-gray-200 hover:text-white"
+                              className="text-gray-300 hover:text-white transition-colors duration-300"
                             >
                               Sustainability
                             </Link>
                           </div>
                         </div>
                       </div>
-                      <div className="grid grid-cols-2 gap-4">
+                      <div className="hidden sm:grid grid-cols-2 gap-4">
                         <RegularCard
                           destination="https://gaming.uefa.com/"
                           cardIcon={uefaGaming}
@@ -190,11 +196,11 @@ export default function TopHeader() {
                         />
                       </div>
                     </div>
-                    <div className="w-2/3 flex flex-col gap-8 pb-20">
-                      <p className="text-4xl text-white">UEFA competitions</p>
+                    <div className="w-full sm:w-2/3 flex flex-col gap-8 px-6 sm:pb-20">
+                      <p className="text-2xl sm:text-3xl md:text-4xl text-white">UEFA competitions</p>
                       <div className="flex flex-col gap-6">
-                        <p className="text-3xl text-white">Clubs</p>
-                        <div className="flex items-start justify-start gap-4">
+                        <p className="text-xl sm:text-2xl md:text-3xl text-white">Clubs</p>
+                        <div className="grid grid-cols-3 sm:grid-cols-6 gap-4 sm:gap-6">
                           <CompetitionItem
                             destination="https://www.uefa.com/uefachampionsleague/"
                             img={uefaBall}
@@ -234,8 +240,8 @@ export default function TopHeader() {
                         </div>
                       </div>
                       <div className="flex flex-col gap-6">
-                        <p className="text-3xl text-white">National</p>
-                        <div className="flex justify-start gap-4">
+                        <p className="text-xl sm:text-2xl md:text-3xl text-white">National</p>
+                        <div className="grid grid-cols-3 sm:grid-cols-6 gap-4 sm:gap-6">
                           <CompetitionItem
                             destination="https://www.uefa.com/european-qualifiers/"
                             img={uefaEuropeanQualifiers}
@@ -269,8 +275,8 @@ export default function TopHeader() {
                         </div>
                       </div>
                       <div className="flex flex-col gap-6">
-                        <p className="text-3xl text-white">Women</p>
-                        <div className="grid grid-cols-6 gap-6">
+                        <p className="text-xl sm:text-2xl md:text-3xl text-white">Women</p>
+                        <div className="grid grid-cols-3 sm:grid-cols-6 gap-4 sm:gap-6">
                           <CompetitionItem
                             destination="https://www.uefa.com/womenschampionsleague/"
                             img={uefaWomenChampionsLeague}
@@ -322,8 +328,8 @@ export default function TopHeader() {
                         </div>
                       </div>
                       <div className="flex flex-col gap-6">
-                        <p className="text-3xl text-white">Youth</p>
-                        <div className="flex justify-start gap-4">
+                        <p className="text-xl sm:text-2xl md:text-3xl text-white">Youth</p>
+                        <div className="grid grid-cols-3 sm:grid-cols-6 gap-4 sm:gap-6">
                           <CompetitionItem
                             destination="https://www.uefa.com/under19/"
                             img={youthUnder19}
@@ -345,8 +351,8 @@ export default function TopHeader() {
                         </div>
                       </div>
                       <div className="flex flex-col gap-6">
-                        <p className="text-3xl text-white">Futsal</p>
-                        <div className="flex items-start justify-center gap-4">
+                        <p className="text-xl sm:text-2xl md:text-3xl text-white">Futsal</p>
+                        <div className="grid grid-cols-3 sm:grid-cols-6 gap-4 sm:gap-6">
                           <CompetitionItem
                             destination="https://www.uefa.com/uefafutsalchampionsleague/"
                             img={uefaFutsalChampionsLeague}
@@ -384,6 +390,53 @@ export default function TopHeader() {
                             title="Fifa Futsal Worldcup"
                           />
                         </div>
+                      </div>
+                    </div>
+                    <div className="flex flex-col sm:hidden w-full px-6 pb-20">
+                      <p className="text-xl text-white mb-6">
+                        You might also be interested in:
+                      </p>
+                      <div className="grid grid-cols-2 gap-4 sm:hidden">
+                        <RegularCard
+                          destination="https://gaming.uefa.com/"
+                          cardIcon={uefaGaming}
+                          cardIconDescription="UEFA Tv"
+                        />
+                        <RegularCard
+                          destination="https://links.uefa.tv/uefacom-header"
+                          cardIcon={uefaTv}
+                          cardIconDescription="UEFA Tv"
+                        />
+                        <RegularCard
+                          destination="https://www.uefa.com/match-calendar/"
+                          cardIcon={footballField}
+                          cardIconDescription="UEFA Tv"
+                          text="Match calendar"
+                        />
+                        <RegularCard
+                          destination="https://www.shopuefa.com/en/?_s=bm-fi-psc-uefa-hpshopnav"
+                          cardIcon={shoppingBag}
+                          cardIconDescription="UEFA Tv"
+                          text="Store (national...)"
+                        />
+                        <RegularCard
+                          destination="https://store.uefa.com/"
+                          cardIcon={shoppingBag}
+                          cardIconDescription="UEFA Tv"
+                          text="Store (clubs)"
+                        />
+                        <RegularCard
+                          destination="https://www.uefa.com/nationalassociations/uefarankings/"
+                          cardIcon={ranking}
+                          cardIconDescription="UEFA Tv"
+                          text="UEFA rankings"
+                        />
+                        <RegularCard
+                          destination="https://www.uefa.com/tickets/"
+                          cardIcon={ticket}
+                          cardIconDescription="UEFA Tv"
+                          text="Tickets and hospitality"
+                        />
                       </div>
                     </div>
                   </div>
