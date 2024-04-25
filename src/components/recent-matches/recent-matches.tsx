@@ -20,7 +20,7 @@ export default function RecentMatches() {
   return (
     <section className="h-32 bg-uefa-dark-blue-main flex w-full">
       <div className="flex items-center justify-between w-full max-w-[1400px] mx-auto overflow-x-hidden">
-        <div className="hidden sm:flex gap-4 ml-16">
+        <div className="hidden sm:flex gap-4">
           <MatchCard
             teamOne="Real Madrid"
             teamOneImage={realMadrid}

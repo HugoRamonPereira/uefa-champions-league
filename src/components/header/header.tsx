@@ -172,9 +172,9 @@ ListItem.displayName = "ListItem"
             <Image
               src="/assets/images/ucl-logo-dark.svg"
               alt="UEFA logo"
-              width={85}
+              width={100}
               height={70}
-              className="w-16 md:w-20"
+              className="w-16 md:w-20 lg:w-[84px]"
             />
           </Link>
         </section>
