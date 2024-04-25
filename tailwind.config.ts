@@ -56,12 +56,14 @@ const config = {
           "dark-blue-main": "#000040",
           "dark-blue-secondary": "#0A0A61",
           "dark-blue-tertiary": "#242473",
+          "dark-blue-quaternary": "#030E8A",
           blue: "#0D39FF",
           cyan: "#59F7DD",
           "dark-cyan": "#031f38",
           "cyan-gray": "#1C354D",
           gray: "#F2F4F7",
-          "light-gray": "#B2BAC2"
+          "light-gray": "#B2BAC2",
+          "dark-gray": "#404070"
         },
       },
       borderRadius: {
