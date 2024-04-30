@@ -7,27 +7,21 @@ import uclNewFormat from "../../../public/assets/images/ucl-new-format.png";
 import uclShow from "../../../public/assets/images/ucl-show.png";
 import uclSemifinalists from "../../../public/assets/images/ucl-final-four-2024.png";
 import uclWatchAll32Final8 from "../../../public/assets/images/ucl-watch-all-32-lat-eight-goals.png";
+import uclSemiFinalsMbappeKaneSanchoBellingam from "../../../public/assets/images/ucl-semifinals-kane-bellingham-mbappe-sancho.png"
+import HoverCard from "../hover-card/hover-card";
 
 export default function Headlines() {
   return (
     <section className="bg-[url('/assets/images/ucl-backgroundDark01L.webp')] bg-cover bg-center sm:h-[575px] w-full border-t border-uefa-dark-gray">
       <div className="w-full max-w-[1400px] mx-auto flex flex-col sm:flex-row gap-4 sm:gap-8 h-full pt-4 sm:pt-7 pb-4 sm:pb-0">
-        <Link
-          href="https://www.uefa.com/uefachampionsleague/news/028c-1ab6365b621d-7f6c40a13fbf-1000--semi-final-first-legs-what-to-look-out-for/"
-          className="bg-white w-[92%] min-h-[218px] sm:min-h-fit mx-auto sm:w-[65%] sm:h-[90%] rounded-md border border-uefa-dark-gray overflow-hidden relative"
-        >
-          <Image
-            src="/assets/images/ucl-semifinals-kane-bellingham-mbappe-sancho.avif"
-            alt="Kane Bellingham Mbappe Sancho"
-            width={894}
-            height={503}
-            quality={100}
-            className="hover:scale-110 transition-transform ease-in-out duration-500"
-          />
-          <p className="absolute bottom-6 left-4 text-white text-2xl">
-            Semi-final first legs: What to look out for
-          </p>
-        </Link>
+        <HoverCard
+          destination="https://www.uefa.com/uefachampionsleague/news/028c-1ab6365b621d-7f6c40a13fbf-1000--semi-final-first-legs-what-to-look-out-for/"
+          img={uclSemiFinalsMbappeKaneSanchoBellingam}
+          imgDescription="Kane Bellingham Mbappe Sancho"
+          title="Semi-final first legs: What to look out for"
+          width={894}
+          height={503}
+        />
         <div className="bg-uefa-dark-blue-quaternary w-[92%] mx-auto sm:w-[35%] h-[90%] rounded-md">
           <p className={`${championsRegular.className} hidden sm:flex text-white text-2xl px-4 pt-3 pb-1.5 `}>Headlines</p>
           <div className="flex flex-col divide-y divide-gray-400/40 mx-4">

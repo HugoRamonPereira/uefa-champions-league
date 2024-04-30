@@ -22,7 +22,8 @@ const buttonVariants = cva(
         "uefa-link": "text-base font-light text-white hover:text-uefa-cyan hover:transition-colors hover:duration-200 p-1",
         "uefa-link-footer": "text-sm font-light text-gray-300 hover:text-white hover:transition-colors hover:duration-200 cursor-pointer text-left py-0 max-w-fit !px-0 max-h-6",
         "uefa-cyan-outline": "text-base font-medium text-uefa-cyan hover:text-uefa-dark-blue-main border-2 border-uefa-cyan hover:bg-uefa-cyan",
-        "uefa-link-round": "text-sm text-gray-300 hover:text-white hover:transition-colors hover:duration-200 cursor-pointer rounded-full border-[1.5px] w-10 h-10 border-gray-300 hover:border-white"
+        "uefa-link-round": "text-sm text-gray-300 hover:text-white hover:transition-colors hover:duration-200 cursor-pointer rounded-full border-[1.5px] w-10 h-10 border-gray-300 hover:border-white",
+        "uefa-blue-outline": "text-sm sm:text-base bg-transparent text-uefa-blue hover:text-white hover:bg-uefa-blue hover:transition-colors hover:duration-200 border border-uefa-blue"
       },
       size: {
         default: "h-10 px-4 py-2",
