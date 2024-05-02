@@ -11,9 +11,9 @@ export default function LatestNews() {
   return (
     <section className="bg-[url('/assets/images/ucl-news_d.webp')] bg-cover bg-center sm:h-[575px] md:h-fit w-full">
       <div className="w-full max-w-[1400px] h-fit mx-auto">
-        <p className={`${championsBold.className} text-4xl py-6`}>Latest news</p>
-        <div className="grid grid-cols-2 gap-8">
-          <div className="min-w-[680px] flex flex-col sm:flex-row bg-yellow-300">
+        <p className={`${championsBold.className} text-2xl sm:text-4xl py-6 ml-4`}>Latest news</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          <div className="lg:min-w-[680px] flex flex-col sm:flex-row">
             <Link
               href=""
               className="bg-white w-[92%] min-h-[218px] sm:min-h-fit mx-auto sm:mx-0 sm:w-full sm:h-full rounded-md border border-uefa-dark-gray overflow-hidden relative"
@@ -31,13 +31,13 @@ export default function LatestNews() {
               </p>
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-8 w-full min-h-[218px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full">
             <InfoCard
               destination=""
               img={uclBayernXReal}
               imgDescription="Bayern x Real Madrid preview"
-              width={324}
-              height={182}
+              // width={324}
+              // height={182}
             >
               <p className="text-xl font-medium">
                 Bayern x Real Madrid preview
@@ -47,8 +47,8 @@ export default function LatestNews() {
               destination=""
               img={uclCoefficientTable}
               imgDescription="Bayern x Real Madrid preview"
-              width={324}
-              height={182}
+              // width={324}
+              // height={182}
             >
               <p className="text-xl font-medium">
                 Champions League winner rebalancing
@@ -56,14 +56,14 @@ export default function LatestNews() {
             </InfoCard>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-8 mt-8">
-          <div className="grid grid-cols-2 gap-8 w-full min-h-[218px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full">
             <InfoCard
               destination=""
               img={uclBayernXReal}
               imgDescription="Bayern x Real Madrid preview"
-              width={324}
-              height={182}
+              // width={324}
+              // height={182}
             >
               <p className="text-xl font-medium">
                 Bayern x Real Madrid preview
@@ -73,15 +73,15 @@ export default function LatestNews() {
               destination=""
               img={uclCoefficientTable}
               imgDescription="Bayern x Real Madrid preview"
-              width={324}
-              height={182}
+              // width={324}
+              // height={182}
             >
               <p className="text-xl font-medium">
                 Champions League winner rebalancing
               </p>
             </InfoCard>
           </div>
-          <div className="min-w-[680px] flex flex-col sm:flex-row bg-yellow-300">
+          <div className="sm:min-w-[680px] flex flex-col sm:flex-row">
             <Link
               href=""
               className="bg-white w-[92%] min-h-[218px] sm:min-h-fit mx-auto sm:mx-0 sm:w-full sm:h-full rounded-md border border-uefa-dark-gray overflow-hidden relative"
@@ -99,7 +99,7 @@ export default function LatestNews() {
               </p>
             </Link>
           </div>
-          <Button variant={"uefa-blue-outline"} className="w-[calc(50%-16px)] h-12">View all news</Button>
+          <Button variant={"uefa-blue-outline"} className="w-[92%] sm:w-[calc(50%-16px)] h-12 mx-auto">View all news</Button>
         </div>
       </div>
     </section>

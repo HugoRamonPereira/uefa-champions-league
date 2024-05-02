@@ -17,17 +17,19 @@ export default function InfoCard({ destination, img, imgDescription, width, heig
   return (
     <Link
       href={destination}
-      className="bg-white mx-auto sm:mx-0 rounded-md overflow-hidden relative"
+      className="bg-white w-[92%] sm:w-fit mx-auto sm:mx-0 rounded-md overflow-hidden relative"
     >
-      <Image
-        src={img}
-        alt={imgDescription}
-        width={width}
-        height={height}
-        quality={100}
-        className={cn("hover:scale-110 transition-transform ease-in-out duration-500", className)}
-      />
-      <div className="bg-white w-[324px] min-h-[201px] p-2">
+      <div className="max-h-[182px] overflow-hidden">
+        <Image
+          src={img}
+          alt={imgDescription}
+          width={width}
+          height={height}
+          quality={100}
+          className={cn("hover:scale-110 transition-transform ease-in-out duration-500", className)}
+        />
+      </div>
+      <div className="bg-white hidden sm:flex w-[324px] min-h-[201px] p-2">
         {children}
       </div>
     </Link>
