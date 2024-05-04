@@ -99,7 +99,7 @@ export default function LatestNews() {
               </p>
             </Link>
           </div>
-          <Button variant={"uefa-blue-outline"} className="w-[92%] sm:w-[calc(50%-16px)] h-12 mx-auto">View all news</Button>
+          <Button variant={"uefa-blue-outline"} className="w-[92%] sm:w-[calc(50%-16px)] h-12 mx-auto sm:mx-0">View all news</Button>
         </div>
       </div>
     </section>
