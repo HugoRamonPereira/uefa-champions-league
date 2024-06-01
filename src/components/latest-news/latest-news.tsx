@@ -36,8 +36,6 @@ export default function LatestNews() {
               destination=""
               img={uclBayernXReal}
               imgDescription="Bayern x Real Madrid preview"
-              // width={324}
-              // height={182}
             >
               <p className="text-xl font-medium">
                 Bayern x Real Madrid preview
@@ -47,8 +45,6 @@ export default function LatestNews() {
               destination=""
               img={uclCoefficientTable}
               imgDescription="Bayern x Real Madrid preview"
-              // width={324}
-              // height={182}
             >
               <p className="text-xl font-medium">
                 Champions League winner rebalancing
@@ -62,8 +58,6 @@ export default function LatestNews() {
               destination=""
               img={uclBayernXReal}
               imgDescription="Bayern x Real Madrid preview"
-              // width={324}
-              // height={182}
             >
               <p className="text-xl font-medium">
                 Bayern x Real Madrid preview
@@ -73,8 +67,6 @@ export default function LatestNews() {
               destination=""
               img={uclCoefficientTable}
               imgDescription="Bayern x Real Madrid preview"
-              // width={324}
-              // height={182}
             >
               <p className="text-xl font-medium">
                 Champions League winner rebalancing
@@ -99,7 +91,7 @@ export default function LatestNews() {
               </p>
             </Link>
           </div>
-          <Button variant={"uefa-blue-outline"} className="w-[92%] sm:w-[calc(50%-16px)] h-12 mx-auto sm:mx-0">View all news</Button>
+          <Button variant={"uefa-blue-outline"} className="w-[92%] sm:w-[calc(50%-16px)] h-12 mx-auto sm:mx-0 mb-8">View all news</Button>
         </div>
       </div>
     </section>

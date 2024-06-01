@@ -3,7 +3,10 @@ import { Manrope } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const manrope = Manrope({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"]
+});
 
 export const championsRegular = localFont({
   src: "../../public/assets/fonts/Champions-Regular.ttf",
