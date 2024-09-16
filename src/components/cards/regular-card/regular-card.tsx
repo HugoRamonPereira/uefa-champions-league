@@ -3,7 +3,8 @@ import {
   Card,
   CardContent
 } from "@/components/ui/card"
-import Image, { StaticImageData }  from "next/image"
+import Image  from "next/image"
+import type { StaticImageData }  from "next/image"
 import Link from "next/link";
 
 interface RegularCardProps {
