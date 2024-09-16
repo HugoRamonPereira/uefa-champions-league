@@ -55,6 +55,7 @@ const config = {
         uefa: {
           "dark-blue-main": "#000040",
           "dark-blue-secondary": "#0A0A61",
+          "dark-gaming-card": "#121270",
           "dark-blue-tertiary": "#242473",
           "dark-blue-quaternary": "#030E8A",
           blue: "#0D39FF",
