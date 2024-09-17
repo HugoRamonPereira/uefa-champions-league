@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import { ScrollToTop } from "@/components/scroll-to-top/scroll-to-top";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -30,7 +31,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={manrope.className}>{children}</body>
+      <body className={manrope.className}>
+        {children}
+        <ScrollToTop />
+      </body>
     </html>
   );
 }

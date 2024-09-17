@@ -59,6 +59,7 @@ const config = {
           "dark-blue-tertiary": "#242473",
           "dark-blue-quaternary": "#030E8A",
           blue: "#0D39FF",
+          "blue-lighter": "#0d4dff",
           cyan: "#59F7DD",
           "dark-cyan": "#031f38",
           "cyan-gray": "#1C354D",
