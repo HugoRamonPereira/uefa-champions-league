@@ -10,7 +10,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[url('/assets/images/footer.webp')] bg-cover bg-center h-screen">
+    <footer className="bg-[url('/assets/images/uefa-ucl-footer.jpg')] bg-cover bg-center h-screen">
       <section className="flex items-center w-full">
         <div className="w-full max-w-[1400px] mx-auto flex flex-col md:flex-row items-start justify-between md:gap-60 mt-10 text-white text-sm font-extralight tracking-wide">
           <div className="flex justify-between w-4/5 mx-auto md:w-1/2 border-b md:border-none border-gray-200/15 pb-4">

@@ -206,7 +206,7 @@ const CarouselPrevious = React.forwardRef<
       variant={"uefa-cyan-outline"}
       size={size}
       className={cn(
-        "absolute  h-6 w-6 rounded-full",
+        "absolute h-6 w-6 rounded-full",
         orientation === "horizontal"
           ? "-left-12 top-1/2 -translate-y-1/2"
           : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
