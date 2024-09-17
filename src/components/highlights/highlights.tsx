@@ -1,9 +1,11 @@
 import { championsBold } from "@/app/layout";
 import { Button } from "../ui/button";
-import NavigationButton from "../navigation-button/navigation-button";
+import NavigationButton from "../navigation-button/navigation-next";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import HighlightsCard from "../cards/highlights-card/highlights-card";
 import uclHighlightsBVBXPSG from "../../../public/assets/images/ucl-borussia_dortmund_v_paris_saint-germain_semi-final_first_leg_-_uefa_champions_league_2023_24.webp";
+import NavigationPrev from "../navigation-button/navigation-prev";
+import NavigationNext from "../navigation-button/navigation-next";
 
 export default function Highlights() {
   return (
@@ -12,12 +14,8 @@ export default function Highlights() {
         <div className="flex items-center justify-between">
           <p className={`${championsBold.className} text-2xl text-white sm:text-4xl py-6 ml-4`}>Highlights</p>
           <div className="flex gap-2">
-            <NavigationButton>
-              <ChevronLeft size={20} strokeWidth={3} />
-            </NavigationButton>
-            <NavigationButton>
-              <ChevronRight size={20} strokeWidth={3} />
-            </NavigationButton>
+            <NavigationPrev />
+            <NavigationNext />
           </div>
         </div>
         <div className="flex gap-8">
