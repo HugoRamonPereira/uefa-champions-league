@@ -6,27 +6,29 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import Play from "../../../../public/assets/icons/play"
-import Image, { StaticImageData }  from "next/image"
+import Image from "next/image"
+import type { StaticImageData }  from "next/image"
 import Link from "next/link";
 
 interface MatchCardProps {
+  matchInfo: string
   teamOne: string;
   teamTwo: string;
-  teamOneScore: number;
-  teamTwoScore: number;
+  teamOneScore?: number;
+  teamTwoScore?: number;
   teamOneImage: StaticImageData;
   teamTwoImage: StaticImageData;
   teamOneAlt: string;
   teamTwoAlt: string;
 }
 
-export default function MatchCard({ teamOne, teamTwo, teamOneImage, teamTwoImage, teamOneScore, teamTwoScore, teamOneAlt, teamTwoAlt }: MatchCardProps) {
+export default function MatchCard({ matchInfo, teamOne, teamTwo, teamOneImage, teamTwoImage, teamOneScore, teamTwoScore, teamOneAlt, teamTwoAlt }: MatchCardProps) {
   return (
     <Link href="/">
-      <Card className="w-[180px] bg-uefa-dark-blue-secondary group text-gray-300 border border-uefa-dark-blue-tertiary hover:border-uefa-blue">
+      <Card className="w-[180px] bg-uefa-dark-blue-secondary group text-gray-300 border border-uefa-dark-blue-tertiary hover:border-uefa-blue select-none">
         <CardHeader className="mb-1 pt-2">
           <CardTitle className="text-gray-300/80 group-hover:text-white text-xs font-light flex items-center justify-between tracking-wide">
-            Full time
+            {matchInfo}
             <Play className="fill-uefa-cyan" />
           </CardTitle>
         </CardHeader>
