@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Sponsors() {
   return (
     <section className="bg-[url('/assets/images/ucl-global-sponsors.jpg')] bg-cover bg-center h-52 md:h-40 w-full">
-      <div className="w-4/6 md:w-full max-w-[700px] flex flex-col items-center h-full justify-center gap-4 mx-auto text-sm antialiased font-light tracking-wide pt-10">
+      <div className="w-4/6 md:w-full max-w-[700px] flex flex-col items-center h-full justify-center gap-4 mx-auto text-sm antialiased font-light tracking-wide">
         <p>Official global sponsors</p>
         <div className="flex flex-col md:flex-row gap-2">
           <div className="flex gap-2 md:gap-4">
