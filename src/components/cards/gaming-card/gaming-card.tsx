@@ -1,4 +1,5 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
+import type { StaticImageData } from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button";

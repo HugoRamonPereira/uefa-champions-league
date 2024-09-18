@@ -1,10 +1,10 @@
 import { championsBold } from "@/app/layout";
 import { Button } from "../ui/button";
 import HighlightsCard from "../cards/highlights-card/highlights-card";
-import uclHighlightsGalatasarayYB from "../../../public/assets/images/ucl-highlights-yb-galatasaray.png";
-import uclHighlightsSalzburgDynamoKyiv from "../../../public/assets/images/ucl-highlights-salzburg-dynamo-kyiv.png";
-import uclHighlightsSpartaPrahaMalmo from "../../../public/assets/images/ucl-highlights-sparta-praha-malmo.png";
-import uclHighlightsYBGalatasaray from "../../../public/assets/images/ucl-highlights-yb-galatasaray-turkey.png";
+import uclHighlightsGalatasarayYB from "/public/assets/images/ucl-highlights-yb-galatasaray.png";
+import uclHighlightsSalzburgDynamoKyiv from "/public/assets/images/ucl-highlights-salzburg-dynamo-kyiv.png";
+import uclHighlightsSpartaPrahaMalmo from "/public/assets/images/ucl-highlights-sparta-praha-malmo.png";
+import uclHighlightsYBGalatasaray from "/public/assets/images/ucl-highlights-yb-galatasaray-turkey.png";
 import NavigationPrev from "../navigation-button/navigation-prev";
 import NavigationNext from "../navigation-button/navigation-next";
 
