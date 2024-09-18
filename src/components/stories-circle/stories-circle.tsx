@@ -13,8 +13,8 @@ export function StoriesCircle({ url, storiesImg, storiesAlt, storiesText }: Stor
   return (
     <Link href={url}>
       <div className="w-fit flex flex-col items-center text-white text-xs gap-1">
-        <div className="border-[2.5px] border-blue-500 rounded-full p-0.5">
-          <Image src={storiesImg} className="bg-uefa-blue rounded-full h-24 w-24" alt={storiesAlt} />
+        <div className="border-[2.5px] border-uefa-cyan rounded-full p-0.5">
+          <Image src={storiesImg} className="bg-uefa-blue rounded-full h-24 min-w-24" alt={storiesAlt} />
         </div>
         <div className="w-3/4 text-center">
           <p>{storiesText}</p>
