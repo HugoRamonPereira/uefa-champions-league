@@ -1,9 +1,8 @@
 "use client";
 
-import React, { Component } from "react";
+import React from "react";
 import FootballField from "../../../public/assets/icons/football-field";
 import MatchCard from "../cards/match-card/match-card";
-import { Button } from "../ui/button";
 
 import {
 	Carousel,
@@ -12,6 +11,7 @@ import {
 	CarouselPrevious,
 } from "@/components/ui/carousel";
 import { matches } from "@/data/data";
+import Link from "next/link";
 
 export default function RecentMatches() {
 
@@ -23,16 +23,17 @@ export default function RecentMatches() {
 						<CarouselContent className="ml-1 gap-4">
 							{matches.map((match) => (
 								<MatchCard
-                  key={match.id}
-                  matchInfo={match.date}
+									key={match.id}
+									matchInfo={match.date}
 									teamOne={match.homeTeamName}
 									teamOneImage={match.homeTeamShield}
 									teamOneAlt={match.homeTeamName}
 									teamTwo={match.AwayTeamName}
 									teamTwoAlt={match.AwayTeamName}
 									teamTwoImage={match.awayTeamShield}
-                  teamOneScore={match.homeTeamScore}
-                  teamTwoScore={match.awayTeamScore}
+									teamOneScore={match.homeTeamScore}
+									teamTwoScore={match.awayTeamScore}
+                  matchUrl={match.matchUrl}
 								/>
 							))}
 						</CarouselContent>
@@ -42,13 +43,13 @@ export default function RecentMatches() {
 				</div>
 
 				<div className="hidden sm:flex justify-end">
-					<Button
-						variant="uefa-cyan-outline"
-						className="flex items-center gap-2 group"
+					<Link
+						href="https://www.uefa.com/uefachampionsleague/fixtures-results/"
+						className="flex items-center gap-2 group text-base font-medium text-uefa-cyan hover:text-uefa-dark-blue-main border-2 border-uefa-cyan hover:bg-uefa-cyan px-4 py-2 rounded-lg"
 					>
 						<FootballField className="fill-uefa-cyan group-hover:fill-uefa-dark-blue-main rotate-90" />
 						View all matches
-					</Button>
+					</Link>
 				</div>
 			</div>
 		</section>
