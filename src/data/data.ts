@@ -48,6 +48,30 @@ import storiesGreatUclGoals from "/public/assets/images/stories/stories-great-uc
 import storiesBrest from "/public/assets/images/stories/stories-brest.webp";
 import storiesAtalanta from "/public/assets/images/stories/stories-atalanta.webp";
 import storiesGnkDinamo from "/public/assets/images/stories/stories-gnk-dinamo.webp";
+import storiesJuve from "/public/assets/images/stories/stories-juve.webp";
+import storiesSporting from "/public/assets/images/stories/stories-sportingcp.webp";
+import storiesAtlMadrid from "/public/assets/images/stories/stories-atl-madrid.webp";
+import storiesFeyenoord from "/public/assets/images/stories/stories-feyenoord.webp";
+import storiesAngles from "/public/assets/images/stories/stories-angles.webp";
+import storiesNetcam from "/public/assets/images/stories/stories-netcam.webp";
+import storiesFunnyMoments from "/public/assets/images/stories/stories-funny-moments.webp";
+import storiesLeverkusen from "/public/assets/images/stories/stories-leverkusen.webp";
+import storiesSturmGraz from "/public/assets/images/stories/stories-sturm-graz.webp";
+import storiesUclSkillsHenry from "/public/assets/images/stories/stories-ucl-skills-henry.webp";
+import storiesClassyControl from "/public/assets/images/stories/stories-classy-control.webp";
+import storiesAnglesGrizzy from "/public/assets/images/stories/stories-angles-grizzy.webp";
+import storiesManagerMoments from "/public/assets/images/stories/stories-manager-moments.webp";
+import storiesViniCelebs from "/public/assets/images/stories/stories-vini-celebs.webp";
+import storiesGriddyCelebs from "/public/assets/images/stories/stories-griddy-celebs.webp";
+import storiesLiverpool from "/public/assets/images/stories/stories-liverpool.webp";
+import storiesInter from "/public/assets/images/stories/stories-inter.webp";
+import storiesFinalGoals from "/public/assets/images/stories/stories-final-goals.webp";
+import storiesUclSkillsCosta from "/public/assets/images/stories/stories-ucl-skills-costa.webp";
+import storiesPsv from "/public/assets/images/stories/stories-psv.webp";
+import storiesClubBrugge from "/public/assets/images/stories/stories-club-brugge.webp";
+import storiesBallon from "/public/assets/images/stories/stories-ballon.webp";
+import storiesViniJunior from "/public/assets/images/stories/stories-vini-junior.webp";
+import storiesUclSkillsCr7 from "/public/assets/images/stories/stories-ucl-skills-cr7.webp";
 
 export const stories = [
   {
@@ -122,6 +146,150 @@ export const stories = [
     image: storiesGnkDinamo,
     text: "GNK Dinamo 📸",
   },
+  {
+    id: 13,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/77a08265-c365-a0b1-2b74-3a14f299edb0?openedReason=storyListTap",
+    image: storiesJuve,
+    text: "Juventus 📸",
+  },
+  {
+    id: 14,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/6ef626bd-2058-bc9d-1668-3a14f29f4bfe?openedReason=storyListTap",
+    image: storiesSporting,
+    text: "Sporting CP 📸",
+  },
+  {
+    id: 15,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/5fcfdbe2-2fec-4834-9eb5-3a14f2ae329a?openedReason=storyListTap",
+    image: storiesAtlMadrid,
+    text: "Atl. Madrid 📸",
+  },
+  {
+    id: 16,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/49bc1832-8dba-4499-083d-3a14f2b52640?openedReason=storyListTap",
+    image: storiesFeyenoord,
+    text: "Feyenoord 📸",
+  },
+  {
+    id: 17,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/a5382bb5-8fb5-f8f5-5c06-3a14d8d8b149?openedReason=storyListTap",
+    image: storiesAngles,
+    text: "2023/24 angles 📽️",
+  },
+  {
+    id: 18,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/540e0802-e006-7617-46cd-3a14d8f1eb7b?openedReason=storyListTap",
+    image: storiesNetcam,
+    text: "Netcam 🥅",
+  },
+  {
+    id: 19,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/b9edfb6a-f3fe-e0ea-755a-3a14e84cb589?openedReason=storyListTap",
+    image: storiesFunnyMoments,
+    text: "Funny moments 🤣",
+  },
+  {
+    id: 20,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/51a8f05f-f4a4-90af-18ed-3a14e8bc0b75?openedReason=storyListTap",
+    image: storiesLeverkusen,
+    text: "Leverkusen 📸",
+  },
+  {
+    id: 21,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/1524f576-e7ce-c273-fcb5-3a14f28661ac?openedReason=storyListTap",
+    image: storiesSturmGraz,
+    text: "Sturm Graz 📸",
+  },
+  {
+    id: 22,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/98ae4b82-687e-118a-cc23-3a14d3b664f0?openedReason=storyListTap",
+    image: storiesLiverpool,
+    text: "Liverpool 📸",
+  },
+  {
+    id: 23,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/e41d7a4c-2f22-60d9-0baa-3a14d3bb96a8?openedReason=storyListTap",
+    image: storiesInter,
+    text: "Inter 📸",
+  },
+  {
+    id: 24,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/ba91d7af-4193-b896-ee31-3a1457d55cf1?openedReason=storyListTap",
+    image: storiesUclSkillsHenry,
+    text: "UCL Skills 🔥",
+  },
+  {
+    id: 25,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/ebbb0640-d53e-a361-d1e5-3a14d8eb7d81?openedReason=storyListTap",
+    image: storiesClassyControl,
+    text: "Classy control 🪄",
+  },
+  {
+    id: 26,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/eb73bae6-9238-d159-c450-3a14e858e6be?openedReason=storyListTap",
+    image: storiesManagerMoments,
+    text: "Manager moments 🧠",
+  },
+  {
+    id: 27,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/dc4a9a4c-fe1b-31f1-ab41-3a14d8da2b7a?openedReason=storyListTap",
+    image: storiesAnglesGrizzy,
+    text: "2023/24 angles 🎞️",
+  },
+  {
+    id: 28,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/78990420-3607-481a-56f3-3a14679e4289?openedReason=storyListTap",
+    image: storiesViniCelebs,
+    text: "Vini Jr. celebs 🕺",
+  },
+  {
+    id: 29,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/46546b8e-ec97-7d2d-1c9d-3a146798a9a1?openedReason=storyListTap",
+    image: storiesGriddyCelebs,
+    text: "Griddy celebs 👀",
+  },
+  {
+    id: 30,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/6ef01e50-5af7-4c4f-a59b-3a145d30fe75?openedReason=storyListTap",
+    image: storiesFinalGoals,
+    text: "Final goals ⚽️",
+  },
+  {
+    id: 31,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/94399477-553d-847e-b1a2-3a1457d52c8c?openedReason=storyListTap",
+    image: storiesUclSkillsCosta,
+    text: "UCL Skills 🔥",
+  },
+  {
+    id: 32,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/c011469b-16be-53e8-2d9a-3a150be89cf6?openedReason=storyListTap",
+    image: storiesPsv,
+    text: "PSV 📸",
+  },
+  {
+    id: 33,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/dda3e8f7-f906-629b-50b5-3a14d3aed865?openedReason=storyListTap",
+    image: storiesClubBrugge,
+    text: "Club Brugge 📸",
+  },
+  {
+    id: 34,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/384c3912-9847-0afa-3eca-3a14d4607016?openedReason=storyListTap",
+    image: storiesBallon,
+    text: "Ballon d'Or nominees 🏆",
+  },
+  {
+    id: 35,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/81d24374-c738-9e3a-b0df-3a14496ef887?openedReason=storyListTap",
+    image: storiesViniJunior,
+    text: "Vini Junior 🇧🇷",
+  },
+  {
+    id: 36,
+    url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/6095402d-ed69-5f26-2e0f-3a1457d4ef58?openedReason=storyListTap",
+    image: storiesUclSkillsCr7,
+    text: "UCL Skills 🥶",
+  }
 ];
 
 export const phaseTableClubs = [
