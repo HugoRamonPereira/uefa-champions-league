@@ -1,10 +1,10 @@
 import { championsBold } from "@/app/layout";
-import uclKomapny from "../../../public/assets/images/ucl-bayern-kompany.jpeg";
-import uclPredictSix from "../../../public/assets/images/ucl-predict-your-six.jpeg";
-import uclMonacoBarcelona from "../../../public/assets/images/ucl-monaco-barcelona.jpeg";
-import uclNewEra from "../../../public/assets/images/ucl-a-new-era-begins.webp";
-import uclFixtures from "../../../public/assets/images/ucl-new-fixtures.webp";
-import uclClasssicHaaland from "../../../public/assets/images/ucl-classics-haaland.webp";
+import uclKomapny from "/public/assets/images/ucl-bayern-kompany.jpeg";
+import uclPredictSix from "/public/assets/images/ucl-predict-your-six.jpeg";
+import uclMonacoBarcelona from "/public/assets/images/ucl-monaco-barcelona.jpeg";
+import uclNewEra from "/public/assets/images/ucl-a-new-era-begins.webp";
+import uclFixtures from "/public/assets/images/ucl-new-fixtures.webp";
+import uclClasssicHaaland from "/public/assets/images/ucl-classics-haaland.webp";
 import Link from "next/link";
 import Image from "next/image";
 import InfoCard from "../info-card/info-card";

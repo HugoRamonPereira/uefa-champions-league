@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -25,7 +24,9 @@ interface MatchCardProps {
 export default function MatchCard({ matchInfo, teamOne, teamTwo, teamOneImage, teamTwoImage, teamOneScore, teamTwoScore, teamOneAlt, teamTwoAlt }: MatchCardProps) {
   return (
     <Link href="/">
-      <Card className="w-[180px] bg-uefa-dark-blue-secondary group text-gray-300 border border-uefa-dark-blue-tertiary hover:border-uefa-blue select-none">
+      <Card
+        className="w-[160px] bg-uefa-dark-blue-secondary group text-gray-300 border border-uefa-dark-blue-tertiary hover:border-uefa-blue select-none"
+      >
         <CardHeader className="mb-1 pt-2">
           <CardTitle className="text-gray-300/80 group-hover:text-white text-xs font-light flex items-center justify-between tracking-wide">
             {matchInfo}

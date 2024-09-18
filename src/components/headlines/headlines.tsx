@@ -1,101 +1,16 @@
 import { championsRegular } from "@/app/layout";
-import HeadlineItem from "../headline-item/headline-item";
-import uclNewFormat from "../../../public/assets/images/ucl-new-format.jpeg";
-import uclWhatToLookOutFor from "../../../public/assets/images/ucl-what-to-lookout-in-every-game.jpeg";
-import uclPredictedLineups from "../../../public/assets/images/ucl-salah-predicted-lineups.webp";
-import uclFormGuide from "../../../public/assets/images/ucl-form-guide.png";
-import uclLeaguePhaseTeams from "../../../public/assets/images/ucl-league-phase-teams.webp";
-import uclFantasyMusialaSalahVini from "../../../public/assets/images/ucl-headlines-salah-musiala-vini.jpeg";
 import HoverCard from "../hover-card/hover-card";
 import { StoriesCircle } from "../stories-circle/stories-circle";
-import storiesUclDraw from "/public/assets/images/stories/stories-ucl-draw.webp";
-import storiesLeaguePhaseClubs from "/public/assets/images/stories/stories-league-phase-clubs.webp";
-import storiesPlayUclFantasy from "/public/assets/images/stories/stories-play-ucl-fantasy.webp";
-import storiesNewFormat from "/public/assets/images/stories/stories-new-format.webp";
-import storiesPredictSix from "/public/assets/images/stories/stories-predict-six.webp";
-import storiesSummerSignings from "/public/assets/images/stories/stories-summer-signings.webp";
-import storiesClassicMd1Goals from "/public/assets/images/stories/stories-classic-md1-goals.webp";
-import storiesBarcelona from "/public/assets/images/stories/stories-barcelona.webp";
-import storiesGreatUclGoals from "/public/assets/images/stories/stories-great-ucl-goals.webp";
-import storiesBrest from "/public/assets/images/stories/stories-brest.webp";
-import storiesAtalanta from "/public/assets/images/stories/stories-atalanta.webp";
-import storiesGnkDinamo from "/public/assets/images/stories/stories-gnk-dinamo.webp";
+import HeadlineItem from "../headline-item/headline-item";
 import { Carousel, CarouselContent, CarouselNext, CarouselPrevious } from "../ui/carousel";
+import { stories } from "@/data/data";
 
-const stories = [
-	{
-		id: 1,
-		url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/312175c1-9dfa-beeb-2754-3a14b4867f54?openedReason=storyListTap",
-		image: storiesUclDraw,
-		text: "All clubs' opponents",
-	},
-	{
-		id: 2,
-		url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/6d065975-5cd8-bd96-e242-3a14a63b0aaa?openedReason=storyListTap",
-		image: storiesLeaguePhaseClubs,
-		text: "League phase clubs ⚽",
-	},
-	{
-		id: 3,
-		url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/8516ddf0-9b01-cd32-0311-3a149fb5c4a6?openedReason=storyListTap",
-		image: storiesPlayUclFantasy,
-		text: "Play UCL Fantasy 📱",
-	},
-	{
-		id: 4,
-		url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/62c66926-29dd-3dd7-5830-3a144884d6a9?openedReason=storyListTap",
-		image: storiesNewFormat,
-		text: "New Format 2024/25 🏆",
-	},
-	{
-		id: 5,
-		url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/442a7a8b-5d6a-3b16-35f3-3a14f869ee37?openedReason=storyListTap",
-		image: storiesPredictSix,
-		text: "Predict Six 📱⚽",
-	},
-	{
-		id: 6,
-		url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/bea463e5-2bd5-d395-595a-3a150c710cb9?openedReason=storyListTap",
-		image: storiesSummerSignings,
-		text: "Summer signings 💰",
-	},
-	{
-		id: 7,
-		url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/2430518b-e786-dcbb-6684-3a150c4ee5e9?openedReason=storyListTap",
-		image: storiesClassicMd1Goals,
-		text: "Classic MD1 goals ⚽",
-	},
-	{
-		id: 8,
-		url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/c011469b-16be-53e8-2d9a-3a150be89cf6?openedReason=storyListTap",
-		image: storiesBarcelona,
-		text: "Barcelona 📸",
-	},
-	{
-		id: 9,
-		url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/4833cc90-9ace-a041-6e29-3a145d64f5ed?openedReason=storyListTap",
-		image: storiesGreatUclGoals,
-		text: "Great UCL goals ⚽",
-	},
-	{
-		id: 10,
-		url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/e56957e0-f56a-2475-93b3-3a14fc7d6ba4?openedReason=storyListTap",
-		image: storiesBrest,
-		text: "Brest 📸",
-	},
-	{
-		id: 11,
-		url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/d10a97c1-cf1e-c61d-2ec8-3a150bf4f274?openedReason=storyListTap",
-		image: storiesAtalanta,
-		text: "Atalanta 📸",
-	},
-	{
-		id: 12,
-		url: "https://www.uefa.com/uefachampionsleague/#ucl-top-stories/83c9036f-4438-1d0d-6021-3a150c159ad2?openedReason=storyListTap",
-		image: storiesGnkDinamo,
-		text: "GNK Dinamo 📸",
-	},
-];
+import uclNewFormat from "/public/assets/images/ucl-new-format.jpeg";
+import uclWhatToLookOutFor from "/public/assets/images/ucl-what-to-lookout-in-every-game.jpeg";
+import uclPredictedLineups from "/public/assets/images/ucl-salah-predicted-lineups.webp";
+import uclFormGuide from "/public/assets/images/ucl-form-guide.png";
+import uclLeaguePhaseTeams from "/public/assets/images/ucl-league-phase-teams.webp";
+import uclFantasyMusialaSalahVini from "/public/assets/images/ucl-headlines-salah-musiala-vini.jpeg";
 
 export default function Headlines() {
   return (
