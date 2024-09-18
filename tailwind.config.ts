@@ -60,6 +60,8 @@ const config = {
           "dark-blue-quaternary": "#030E8A",
           blue: "#0D39FF",
           "blue-lighter": "#0d4dff",
+          "blue-lightest": "#0d75ff",
+          "light-blue-badge": "#59eeff",
           cyan: "#59F7DD",
           "dark-cyan": "#031f38",
           "cyan-gray": "#1C354D",

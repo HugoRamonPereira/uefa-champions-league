@@ -11,10 +11,10 @@ import InfoCard from "../info-card/info-card";
 
 export default function LatestNews() {
   return (
-			<section className="bg-[url('/assets/images/ucl-news_d.webp')] bg-cover bg-center sm:h-[575px] md:h-fit w-full">
+			<section className="bg-uefa-gray sm:h-[575px] md:h-fit w-full">
 				<div className="w-full max-w-[1400px] h-fit mx-auto">
 					<p
-						className={`${championsBold.className} text-2xl sm:text-4xl py-6 ml-4`}
+						className={`${championsBold.className} text-2xl sm:text-4xl py-6`}
 					>
 						Latest news
 					</p>
