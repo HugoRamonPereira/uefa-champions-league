@@ -73,6 +73,19 @@ import storiesBallon from "/public/assets/images/stories/stories-ballon.webp";
 import storiesViniJunior from "/public/assets/images/stories/stories-vini-junior.webp";
 import storiesUclSkillsCr7 from "/public/assets/images/stories/stories-ucl-skills-cr7.webp";
 
+import highlightsMilanLiverpool from "/public/assets/images/highlights/milan-liverpool.webp";
+import highlightsBayernGNKDinamo from "/public/assets/images/highlights/bayern-munich-dinamo-zagreb.webp";
+import highlightsRealMadridStuttgart from "/public/assets/images/highlights/real-madrid-stuttgart.webp";
+import highlightsJuvePsv from "/public/assets/images/highlights/juventus-psv.webp";
+import highlightsYoungBoysAstonVilla from "/public/assets/images/highlights/young-boys-aston-villa.webp";
+import highlightsSportingLille from "/public/assets/images/highlights/sporting-lille.webp";
+import highlightsGalatasarayYoungBoys from "/public/assets/images/highlights/galatasaray-young-boys.webp";
+import highlightsSalzburgDynamoKyiv from "/public/assets/images/highlights/salzburg-dynamo-kyiv.webp";
+import highlightsSpartaPrahaMalmo from "/public/assets/images/highlights/sparta-praha-malmo.webp";
+import highlightsYoungBoysGalatasaray from "/public/assets/images/highlights/yb-galatasaray.webp";
+import highlightsLilleSlaviaPraha from "/public/assets/images/highlights/lille-slavia-praha.webp";
+import highlightsDynamoKyivSalzburg from "/public/assets/images/highlights/dynamo-kyiv-salzburg.webp";
+
 export const stories = [
   {
     id: 1,
@@ -341,6 +354,8 @@ export const matches = [
     awayTeamShield: astonVilla,
     homeTeamScore: 0,
     awayTeamScore: 3,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042041--young-boys-vs-aston-villa/",
   },
   {
     id: 2,
@@ -351,6 +366,8 @@ export const matches = [
     awayTeamShield: psv,
     homeTeamScore: 3,
     awayTeamScore: 1,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042029--juventus-vs-psv/",
   },
   {
     id: 3,
@@ -361,6 +378,8 @@ export const matches = [
     awayTeamShield: lille,
     homeTeamScore: 2,
     awayTeamScore: 0,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042040--sporting-cp-vs-lille/",
   },
   {
     id: 4,
@@ -371,6 +390,8 @@ export const matches = [
     awayTeamShield: stuttgart,
     homeTeamScore: 3,
     awayTeamScore: 1,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042038--real-madrid-vs-stuttgart/",
   },
   {
     id: 5,
@@ -381,6 +402,8 @@ export const matches = [
     awayTeamShield: liverpool,
     homeTeamScore: 1,
     awayTeamScore: 3,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042036--milan-vs-liverpool/",
   },
   {
     id: 6,
@@ -391,6 +414,8 @@ export const matches = [
     awayTeamShield: gnkDinamo,
     homeTeamScore: 9,
     awayTeamScore: 2,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042032--bayern-munchen-vs-gnk-dinamo/",
   },
   {
     id: 7,
@@ -399,6 +424,8 @@ export const matches = [
     AwayTeamName: "Salzburg",
     homeTeamShield: spartaPraha,
     awayTeamShield: salzburg,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042042--sparta-praha-vs-salzburg/",
   },
   {
     id: 8,
@@ -407,6 +434,8 @@ export const matches = [
     AwayTeamName: "Shakhtar",
     homeTeamShield: bologna,
     awayTeamShield: shakhtar,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042034--bologna-vs-shakhtar/",
   },
   {
     id: 9,
@@ -415,6 +444,8 @@ export const matches = [
     AwayTeamName: "Girona",
     homeTeamShield: paris,
     awayTeamShield: girona,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042039--paris-vs-girona/",
   },
   {
     id: 10,
@@ -423,6 +454,8 @@ export const matches = [
     AwayTeamName: "Inter",
     homeTeamShield: manCity,
     awayTeamShield: inter,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042035--man-city-vs-inter/",
   },
   {
     id: 11,
@@ -431,6 +464,8 @@ export const matches = [
     AwayTeamName: "S. Bratislava",
     homeTeamShield: celtic,
     awayTeamShield: sBratislava,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042026--celtic-vs-s-bratislava/",
   },
   {
     id: 12,
@@ -439,6 +474,8 @@ export const matches = [
     AwayTeamName: "B. Dormund",
     homeTeamShield: clubBrugge,
     awayTeamShield: bDortmund,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042025--club-brugge-vs-b-dortmund/",
   },
   {
     id: 13,
@@ -447,6 +484,8 @@ export const matches = [
     AwayTeamName: "Leverkusen",
     homeTeamShield: feyenoord,
     awayTeamShield: leverkusen,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042028--feyenoord-vs-leverkusen/",
   },
   {
     id: 14,
@@ -455,6 +494,8 @@ export const matches = [
     AwayTeamName: "Benfica",
     homeTeamShield: crvenaZvezda,
     awayTeamShield: benfica,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042027--crvena-zvezda-vs-benfica/",
   },
   {
     id: 15,
@@ -463,6 +504,8 @@ export const matches = [
     AwayTeamName: "Sturm Graz",
     homeTeamShield: brest,
     awayTeamShield: sturmGraz,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042037--brest-vs-sturm-graz/",
   },
   {
     id: 16,
@@ -471,6 +514,8 @@ export const matches = [
     AwayTeamName: "Barcelona",
     homeTeamShield: monaco,
     awayTeamShield: barcelona,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042033--monaco-vs-barcelona/",
   },
   {
     id: 17,
@@ -479,6 +524,8 @@ export const matches = [
     AwayTeamName: "Leipzig",
     homeTeamShield: atlMadrid,
     awayTeamShield: leipzig,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042031--atleti-vs-leipzig/",
   },
   {
     id: 18,
@@ -487,95 +534,77 @@ export const matches = [
     AwayTeamName: "Arsenal",
     homeTeamShield: atalanta,
     awayTeamShield: arsenal,
+    matchUrl:
+      "https://www.uefa.com/uefachampionsleague/match/2042030--atalanta-vs-arsenal/",
   },
 ];
 
 export const videoComponents: { title: string; href: string }[] = [
   {
     title: "Highlights",
-    href: "/docs/primitives/alert-dialog",
+    href: "https://www.uefa.com/uefachampionsleague/video/highlights/",
   },
   {
-    title: "Videos",
-    href: "/docs/primitives/hover-card",
+    title: "Featured",
+    href: "https://www.uefa.com/uefachampionsleague/video/",
   },
   {
-    title: "Showtime",
-    href: "/docs/primitives/progress",
+    title: "Moments",
+    href: "https://www.uefa.com/uefachampionsleague/video/moments/",
   },
   {
-    title: "Flying Saves",
-    href: "/docs/primitives/scroll-area",
-  },
-  {
-    title: "Priceless Moments",
-    href: "/docs/primitives/tabs",
+    title: "Assists",
+    href: "https://www.uefa.com/uefachampionsleague/video/assists/",
   },
 ];
 
 export const gamingComponents: { title: string; href: string }[] = [
   {
     title: "All Games",
-    href: "/docs/primitives/alert-dialog",
+    href: "https://gaming.uefa.com/en/uefachampionsleague",
   },
   {
     title: "Fantasy Football",
-    href: "/docs/primitives/hover-card",
+    href: "https://gaming.uefa.com/en/uclfantasy",
   },
   {
-    title: "Predictor",
-    href: "/docs/primitives/progress",
+    title: "Predict Six",
+    href: "https://gaming.uefa.com/en/uclpredictor",
   },
   {
-    title: "Quiz Arena",
-    href: "/docs/primitives/scroll-area",
-  },
-  {
-    title: "Bracket",
-    href: "/docs/primitives/tabs",
-  },
-  {
-    title: "Goal of the Week",
-    href: "/docs/primitives/tabs",
-  },
-  {
-    title: "Player of the Week",
-    href: "/docs/primitives/tabs",
-  },
-  {
-    title: "eChampions League",
-    href: "/docs/primitives/tabs",
+    title: "Goal of the Day",
+    href: "https://www.uefa.com/uefachampionsleague/goal-of-the-day/",
   },
   {
     title: "My gaming profile",
-    href: "/docs/primitives/tabs",
+    href: "https://gaming.uefa.com/en/uefachampionsleague/profile",
   },
 ];
 
 export const statsComponents: { title: string; href: string }[] = [
   {
     title: "Season stats",
-    href: "/docs/primitives/alert-dialog",
+    href: "https://www.uefa.com/uefachampionsleague/statistics/",
   },
   {
     title: "Club stats",
-    href: "/docs/primitives/hover-card",
+    href: "https://www.uefa.com/uefachampionsleague/statistics/clubs/",
   },
   {
     title: "Player stats",
-    href: "/docs/primitives/progress",
+    href: "https://www.uefa.com/uefachampionsleague/statistics/players/",
+  },
+  {
+    title: "Top scorer",
+    href: "https://www.uefa.com/uefachampionsleague/top-scorer/",
   },
   {
     title: "Qualifying Phase",
-    href: "/docs/primitives/scroll-area",
+    href: "https://www.uefa.com/uefachampionsleague/statistics/qualifying/",
   },
   {
     title: "All-time stats",
-    href: "/docs/primitives/tabs",
-  },
-  {
-    title: "Player ranking",
-    href: "/docs/primitives/tabs",
+    href: "https://www.uefa.com/uefachampionsleague/statistics/all-time/",
   },
 ];
 
@@ -605,10 +634,109 @@ export const historyComponents: { title: string; href: string }[] = [
 export const moreComponents: { title: string; href: string }[] = [
   {
     title: "About",
-    href: "/docs/primitives/alert-dialog",
+    href: "https://www.uefa.com/uefachampionsleague/about/",
   },
   {
     title: "Store",
-    href: "/docs/primitives/hover-card",
+    href: "https://clubcompetitions-shop.com/?utm_source=uefa&utm_medium=website&utm_campaign=UCL-store",
   },
+];
+
+export const highlights = [
+  {
+    id: 1,
+    videoLength: "02:00",
+    time: "15 hours ago",
+    info: "Highlights: Milan 1-3 Liverpool",
+    image: highlightsMilanLiverpool,
+    url: "https://www.uefa.com/uefachampionsleague/video/highlights/0291-1be13d034768-e9d8ed0997d5-1000--highlights-milan-1-3-liverpool/",
+  },
+  {
+    id: 2,
+    videoLength: "01:59",
+    time: "15 hours ago",
+    info: "Highlights: Bayern München 9-2 GNK Dinamo",
+    image: highlightsBayernGNKDinamo,
+    url: "https://www.uefa.com/uefachampionsleague/video/highlights/0291-1be13ac52c69-e78fd724c954-1000--highlights-bayern-munchen-9-2-gnk-dinamo/",
+  },
+  {
+    id: 3,
+    videoLength: "01:58",
+    time: "15 hours ago",
+    info: "Highlights: Real Madrid 3-1 Stuttgart",
+    image: highlightsRealMadridStuttgart,
+    url: "https://www.uefa.com/uefachampionsleague/video/highlights/0291-1be13a3c22eb-3e79f6b48be4-1000--highlights-real-madrid-3-1-stuttgart/",
+  },
+  {
+    id: 4,
+    videoLength: "02:00",
+    time: "15 hours ago",
+    info: "Highlights: Juventus 3-1 PSV",
+    image: highlightsJuvePsv,
+    url: "https://www.uefa.com/uefachampionsleague/video/highlights/0291-1be126793366-baf78f4e626c-1000--highlights-juventus-3-1-psv/",
+  }
+  // {
+  //   id: 5,
+  //   videoLength: "02:00",
+  //   time: "15 hours ago",
+  //   info: "Highlights: Young Boys 0-3 Aston Villa",
+  //   image: highlightsYoungBoysAstonVilla,
+  //   url: "https://www.uefa.com/uefachampionsleague/video/highlights/0291-1be13811d7b7-d9efcfbee01c-1000--highlights-young-boys-0-3-aston-villa/",
+  // },
+  // {
+  //   id: 6,
+  //   videoLength: "01:59",
+  //   time: "15 hours ago",
+  //   info: "Highlights: Sporting CP 2-0 Lille",
+  //   image: highlightsSportingLille,
+  //   url: "https://www.uefa.com/uefachampionsleague/video/highlights/0291-1be13d7c91a8-6bb7565c44f0-1000--highlights-sporting-cp-2-0-lille/",
+  // },
+  // {
+  //   id: 7,
+  //   videoLength: "01:59",
+  //   time: "28/08/2024",
+  //   info: "Highlights: Galatasaray 0-1 Young Boys",
+  //   image: highlightsGalatasarayYoungBoys,
+  //   url: "https://www.uefa.com/uefachampionsleague/video/highlights/0290-1bb7d6a58dd3-eafcdb201f4e-1000--highlights-galatasaray-0-1-young-boys/",
+  // },
+  // {
+  //   id: 8,
+  //   videoLength: "01:59",
+  //   time: "27/08/2024",
+  //   info: "Highlights: Salzburg 1-1 Dynamo Kyiv",
+  //   image: highlightsSalzburgDynamoKyiv,
+  //   url: "https://www.uefa.com/uefachampionsleague/video/highlights/0290-1bb6fc18fa0f-efb9e8a37c24-1000--highlights-salzburg-1-1-dynamo-kyiv/",
+  // },
+  // {
+  //   id: 9,
+  //   videoLength: "01:58",
+  //   time: "27/08/2024",
+  //   info: "Highlights: Sparta Praha 2-0 Malmö",
+  //   image: highlightsSpartaPrahaMalmo,
+  //   url: "https://www.uefa.com/uefachampionsleague/video/highlights/0291-1be13d034768-e9d8ed0997d5-1000--highlights-milan-1-3-liverpool/",
+  // },
+  // {
+  //   id: 10,
+  //   videoLength: "01:59",
+  //   time: "21/08/2024",
+  //   info: "Highlights: Young Boys 3-2 Galatasaray",
+  //   image: highlightsYoungBoysGalatasaray,
+  //   url: "https://www.uefa.com/uefachampionsleague/video/highlights/0290-1baaf5ee958f-dadf868d2c47-1000--highlights-young-boys-3-2-galatasaray/",
+  // },
+  // {
+  //   id: 11,
+  //   videoLength: "02:00",
+  //   time: "20/08/2024",
+  //   info: "Highlights: Lille 2-0 Slavia Praha",
+  //   image: highlightsLilleSlaviaPraha,
+  //   url: "https://www.uefa.com/uefachampionsleague/video/highlights/0290-1ba8f2c7e73a-31d255ce5eed-1000--highlights-lille-2-0-slavia-praha/",
+  // },
+  // {
+  //   id: 12,
+  //   videoLength: "02:00",
+  //   time: "21/08/2024",
+  //   info: "Highlights: Dynamo Kyiv 0-2 Salzburg",
+  //   image: highlightsDynamoKyivSalzburg,
+  //   url: "https://www.uefa.com/uefachampionsleague/video/highlights/0290-1baaf66c5f80-f3797fd84a98-1000--highlights-dynamo-kyiv-0-2-salzburg/",
+  // },
 ];
