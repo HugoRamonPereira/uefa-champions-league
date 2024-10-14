@@ -30,7 +30,7 @@ export default function InfoCard({ destination, img, imgDescription, width, heig
           className={cn("hover:scale-110 transition-transform ease-in-out duration-500", className)}
         />
       </div>
-      <div className="bg-white hidden sm:flex w-[324px] min-h-[201px] p-2">
+      <div className="bg-white hidden sm:flex w-[324px] min-h-[201px] p-4">
         {children}
       </div>
     </Link>

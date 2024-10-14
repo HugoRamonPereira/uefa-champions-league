@@ -1,23 +1,48 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import localFont from "next/font/local";
-import "./globals.css";
 import { ScrollToTop } from "@/components/scroll-to-top/scroll-to-top";
+import "./globals.css";
 
 const manrope = Manrope({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"]
+  weight: ["400", "500", "600", "700"],
+  variable: "--manrope"
 });
 
-export const championsRegular = localFont({
-  src: "../../public/assets/fonts/Champions-Regular.ttf",
-  display: "swap",
+const championsRegular = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Champions-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--champions-regular",
 });
 
-export const championsBold = localFont({
-  src: "../../public/assets/fonts/Champions-Bold.ttf",
-  display: "swap",
+const championsBold = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Champions-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--champions-bold",
 });
+
+// const championsRegular = localFont({
+//   src: "../../public/fonts/Champions-Regular.ttf",
+//   variable: "--font-championsRegular",
+//   weight: "400"
+// });
+
+// const championsBold = localFont({
+//   src: "../../public/fonts/Champions-Bold.ttf",
+//   variable: "--font-championsBold",
+//   weight: "700"
+// });
 
 export const metadata: Metadata = {
   title: "UEFA Champions League",
@@ -31,7 +56,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={manrope.className}>
+      <body
+        className={`${manrope.variable} ${championsRegular.variable} ${championsBold.variable}`}
+      >
         {children}
         <ScrollToTop />
       </body>

@@ -24,7 +24,7 @@ export default function HeadlineItem({ destination, img, imgDescription, title }
           className="rounded-md group-hover:scale-110 transition-transform ease-in-out duration-300"
         />
       </div>
-      <p>{title}</p>
+      <p className="font-manrope">{title}</p>
     </Link>
   )
 }

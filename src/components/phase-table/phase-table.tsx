@@ -23,7 +23,7 @@ export function PhaseTable() {
           <Table className="mt-6">
             <TableHeader>
               <TableRow className="!border-0 hover:bg-transparent select-none">
-                <TableHead className="text-2xl text-black pb-16 w-52">League phase table</TableHead>
+                <TableHead className="text-2xl font-manrope font-medium text-uefa-darker-gray pb-16 w-52">League phase table</TableHead>
                 <TableHead className="font-thin text-xs w-20 h-20 text-center align-bottom">Played</TableHead>
                 <TableHead className="font-thin text-xs w-20 h-20 text-center align-bottom">Won</TableHead>
                 <TableHead className="font-thin text-xs w-20 h-20 text-center align-bottom">Draw</TableHead>

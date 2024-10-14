@@ -18,6 +18,11 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        manrope: ["var(--manrope)", "sans-serif"],
+        "champions-regular": ["var(--champions-regular)", "sans-serif"],
+        "champions-bold": ["var(--champions-bold)", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -70,6 +75,7 @@ const config = {
           "medium-gray": "#8198A3",
           "dark-gray": "#404070",
           "blueish-gray": "#46468A",
+          "darker-gray": "#1a323d"
         },
       },
       borderRadius: {

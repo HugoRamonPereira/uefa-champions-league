@@ -1,5 +1,3 @@
-import { championsBold } from "@/app/layout";
-import { Button } from "../ui/button";
 import HighlightsCard from "../cards/highlights-card/highlights-card";
 import { highlights } from "@/data/data";
 import { Carousel, CarouselContent } from "../ui/carousel";
@@ -12,11 +10,11 @@ export default function Highlights() {
 			<section className="w-full h-[540px] bg-uefa-dark-blue-quaternary">
 				<div className="w-full max-w-[1400px] mx-auto">
 					<div className="flex items-center justify-between">
-						<p
-							className={`${championsBold.className} text-2xl text-white sm:text-4xl py-6`}
+						<h1
+							className="font-champions-bold text-2xl text-white sm:text-4xl py-6"
 						>
 							Highlights
-						</p>
+						</h1>
 						<div className="flex gap-2">
 							<NavigationPrev className="text-uefa-cyan/90" />
 							<NavigationNext />
@@ -52,7 +50,7 @@ export default function Highlights() {
 					<div className="mt-8">
 						<Link
 							href="https://www.uefa.com/uefachampionsleague/video/highlights/"
-							className="w-[92%] sm:w-[calc(25%-24px)] h-12 mx-auto sm:mx-0 flex items-center justify-center gap-2 group text-base font-medium text-uefa-cyan hover:text-uefa-dark-blue-main border-2 border-uefa-cyan hover:bg-uefa-cyan px-4 py-2 rounded-lg"
+							className="w-[92%] sm:w-[calc(25%-24px)] h-12 mx-auto sm:mx-0 flex items-center justify-center gap-2 group text-base text-uefa-cyan hover:text-uefa-dark-blue-main border border-uefa-cyan hover:bg-uefa-cyan px-4 py-2 rounded-lg"
 						>
 							Watch all highlights
 						</Link>

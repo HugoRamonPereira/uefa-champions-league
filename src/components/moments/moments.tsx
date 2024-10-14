@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { championsBold } from "@/app/layout";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 
@@ -17,11 +16,11 @@ export default function Moments() {
 			<section className="w-full h-fit bg-uefa-gray">
 				<div className="max-w-[1400px] mx-auto w-full">
 					<div className="max-w-[1400px] mx-auto flex items-center justify-between w-full">
-						<p
-							className={`${championsBold.className} text-2xl sm:text-4xl py-6`}
+						<h1
+							className="font-champions-bold text-2xl sm:text-4xl py-6"
 						>
 							Moments
-						</p>
+						</h1>
 						<Link
 							href="https://www.uefa.com/uefachampionsleague/video/moments/"
 							className="flex items-center gap-2 text-lg text-uefa-blue hover:text-uefa-blue-lightest transition-colors duration-150 font-semibold"

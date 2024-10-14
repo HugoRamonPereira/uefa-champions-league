@@ -1,4 +1,4 @@
-import { championsRegular } from "@/app/layout";
+// import { championsRegular } from "@/app/layout";
 import HoverCard from "../hover-card/hover-card";
 import { StoriesCircle } from "../stories-circle/stories-circle";
 import HeadlineItem from "../headline-item/headline-item";
@@ -44,11 +44,11 @@ export default function Headlines() {
 							height={503}
 						/>
 						<div className="bg-uefa-dark-blue-quaternary w-[92%] mx-auto sm:w-[35%] h-[90%] rounded-md">
-							<p
-								className={`${championsRegular.className} hidden sm:flex text-white text-2xl px-4 pt-3 pb-1.5 `}
+							<h1
+								className="font-champions-bold hidden sm:flex text-white text-2xl px-4 pt-3 pb-1.5"
 							>
 								Headlines
-							</p>
+							</h1>
 							<div className="flex flex-col divide-y divide-gray-400/40 mx-4">
 								<HeadlineItem
 									destination="https://www.uefa.com/uefachampionsleague/news/0268-12157d69ce2d-9f011c70f6fa-1000--new-format-for-champions-league-post-2024-everything-you-ne/"

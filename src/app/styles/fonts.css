@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'ChampionsRegular';
+  src: url('/fonts/Champions-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Optional for better UX */
+}
+
+@font-face {
+  font-family: 'ChampionsBold';
+  src: url('/fonts/Champions-Bold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; /* Optional for better UX */
+}
