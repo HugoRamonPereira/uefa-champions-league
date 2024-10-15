@@ -1,4 +1,3 @@
-// import { championsRegular } from "@/app/layout";
 import HoverCard from "../hover-card/hover-card";
 import { StoriesCircle } from "../stories-circle/stories-circle";
 import HeadlineItem from "../headline-item/headline-item";

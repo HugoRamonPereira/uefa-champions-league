@@ -32,21 +32,9 @@ const championsBold = localFont({
   variable: "--champions-bold",
 });
 
-// const championsRegular = localFont({
-//   src: "../../public/fonts/Champions-Regular.ttf",
-//   variable: "--font-championsRegular",
-//   weight: "400"
-// });
-
-// const championsBold = localFont({
-//   src: "../../public/fonts/Champions-Bold.ttf",
-//   variable: "--font-championsBold",
-//   weight: "700"
-// });
-
 export const metadata: Metadata = {
   title: "UEFA Champions League",
-  description: "The biggest sport competition",
+  description: "The biggest sport competition of the entire planet",
 };
 
 export default function RootLayout({
